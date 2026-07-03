@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+  --color-blue-900: #08428C;
+  --color-blue-800: #0D518C;
+  --color-blue-700: #0B4FD9;
+  --color-blue-500: #5C6795;
+  --color-blue-300: #41C0F2;
+
+  --color-black-900: #0F0B0A;
+  --color-black-800: #1B1B13;
+  --color-black-700: #28282B;
+  --color-black-600: #232323;
+  --color-black-500: #121213;
+
+  --color-white-100: #EAEDF0;
+  --color-white-200: #F4F4F4;
+  --color-white-300: #F8F8F8;
+  --color-white-400: #FDFCFA;
+  --color-white: #FFFFFF;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'DM Serif Display', Georgia, serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-black-700);
+  background: var(--color-white);
+  margin: 0;
+}

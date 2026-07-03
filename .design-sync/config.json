@@ -1,0 +1,14 @@
+{
+  "pkg": "@mjml/design-system",
+  "globalName": "MJMLDesignSystem",
+  "shape": "package",
+  "buildCmd": "cd packages/mjml-design-system && npm run build",
+  "cssEntry": "packages/mjml-design-system/dist/styles.css",
+  "runtimeFontPrefixes": ["Inter", "DM Serif Display"],
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "Button": {"cardMode": "column"},
+    "Navbar": {"cardMode": "column"},
+    "Spacer": {"cardMode": "column"}
+  }
+}
